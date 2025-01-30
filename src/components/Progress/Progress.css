@@ -1,0 +1,17 @@
+/* styles.css */
+.scroll-progress-bar {
+    height: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .scroll-progress-bar {
+      height: 3px; /* Slightly smaller on tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .scroll-progress-bar {
+      height: 2px; /* Even smaller for mobile */
+    }
+  }
+  
