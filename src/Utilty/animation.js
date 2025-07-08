@@ -32,7 +32,7 @@ export const SlideLeft = (delay) =>{
     }
     }
 
-    export const SlideRight = (delay) =>{
+     export const SlideRight = (delay) =>{
         return {
             initial: {
                 x: -100,
